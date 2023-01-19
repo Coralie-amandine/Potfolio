@@ -11741,7 +11741,7 @@ h6{
   font-size: 16px;
 }
 .titre{
-  font-weight: bold;
+  font-weight: black;
   font-size: 20px;
 }
 #forma-gauche p{
@@ -11762,5 +11762,6 @@ strong{
 
 /*page formulaire*/
 :required {
-  border: 2px dotted orange;
+  border: 2px dotted green;
 }
+/*page prolis*/

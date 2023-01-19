@@ -31,13 +31,7 @@ class PortfolioController extends AbstractController
             'controller_name' => 'PortfolioController',
         ]);
         
-    }
-    #[Route('/portfolio/profils', name: 'app_portfolio_profils')]
-    public function mon_profils(): Response
-    {
-        return $this->render('portfolio/profils.html.twig', [
-            'controller_name' => 'PortfolioController',
-        ]);
+    
         
     }
     #[Route('/portfolio/Portfolio', name: 'app_portfolio_Portfolio')]
